@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/qza7pgo.css">
+    <title>Better Bevvies</title>
+
+    <!-- adding font styling to all basic tags -->    
+    <style>
+      
+      @font-face {
+        font-family: 'Belligan';
+        src: url(Belligan.otf);
+      }
+
+  </style>
+  
+</head>
+
+
+<!------------------------   Begininng the BODY   ------------------------>
+<body>
+
+
+  <!------------------------   FRAME ONE  ------------------------>
+  <div id="frame-1">
+
+    <!-- Adding in images/ shilouettes -->
+    <div id="header-images">
+      <img src="silhouette/green-spoon-img.png" height="100px">
+      <img src="silhouette/contro-img.png" height="100px">
+      <img src="silhouette/dark-pink-short-glass-img.png" height="100px">
+      <img src="silhouette/green-martini-glass-img.png" height="100px">
+      <img src="silhouette/pink-strainer-img.png" height="100px">
+      <img src="silhouette/pink-daq-glass-img.png" height="100px">
+      <img src="silhouette/pink-jigger-img.png" height="100px">
+      <img src="silhouette/aperol-img.png" height="100px">
+    </div> 
+
+    <!-- Adding text and buttons -->
+    <div id="frame-1-text">
+      <h1 class="frame-1-header-1">Better</h1>
+      <h2 class="frame-1-header-2">Bevvies</h2>
+      <p class="frame-1-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <a href="#frame-2"> <!-- anchor tag to take user to next page/ frame -->  
+          <button id="frame-1-button">Let's Go</button> <!-- button that take user to next page/ frame and triggers dotted line -->  
+      </a> 
+    </div>
+
+  </div>
+
+  <!------------------------   FRAME TWO  ------------------------>
+  <div id="frame-2">
+
+    <!-- Adding text and buttons -->
+    <div id="frame-2-text">
+      <h1 class="frame-2-header-1">PICK A</h1>
+      <h2 class="frame-2-header-2">Spirit</h2>
+    </div>
+  
+    <!-- Adding Spirit Buttons -->
+    <div id="spirit-buttons"> <!-- buttons with anchor tag allowing users to select a spirit -->  
+      <a href="#frame-3"> 
+        <button id="vodka-button">VODKA</button>
+      </a> 
+
+      <a href="#frame-3"> 
+        <button id="gin-button">GIN</button>
+      </a> 
+
+      <a href="#frame-3"> 
+        <button id="tequilla-button">TEQUILLA</button>
+      </a> 
+      
+      <a href="#frame-3"> 
+        <button id="rum-button">RUM</button>
+      </a> 
+    </div>
+
+  </div>
+
+  <!------------------------   FRAME THREE  ------------------------>
+  <div id="frame-3">
+
+    <!-- VODKA Recipe Boxes and Headers -->
+    <div id="vodka-recipes">
+        <div id="pornstar-martini">
+          <h3 class="pornstar-header-1">Pornstar</h3>
+          <h4 class="pornstar-header-2">Martini</h4>
+        </div>
+
+        <div id="cotton-candy-cosmo">
+          <h3 class="cosmo-header-1">Cotton Candy</h3>
+          <h4 class="cosmo-header-2">Cosmo</h4>
+        </div>
+        
+        <div id="sex-on-the-beach">
+          <h3 class="beach-header-1">Sex on the</h3>
+          <h4 class="beach-header-2">Beach</h4>
+        </div>
+    </div>
+   
+    <!-- GIN Recipe Boxes and Headers -->
+    <div id="gin-recipes">
+      <div id="elderflower-sour">
+        <h3 class="elderflower-header-1">Elderflower</h3>
+        <h4 class="elderflower-header-2">Sour</h4>
+      </div>
+
+      <div id="grapefruit-gin-fizz">
+        <h3 class="grapefruit-header-1">Grapefruit</h3>
+        <h4 class="grapefruit-header-2">Gin Fizz</h4>
+      </div>
+
+      <div id="chambord-bramble">
+        <h3 class="chambord-header-1">Chambord</h3>
+        <h4 class="chambord-header-2">Bramble</h4>
+      </div>
+    </div>
+
+    <!-- TEQUILLA Recipe Boxes and Headers -->
+    <div id="tequilla-recipes">
+      <div class="spicy-margarita"></div>
+      <div class="ginger-beer-paloma"></div>
+      <div class="watermellon-sprits"></div>
+    </div>
+
+    <!-- RUM Recipe Boxes and Headers -->
+    <div id="rum-recipes">
+     <div class="strawberry-daq"></div>
+     <div class="passionfruit-mojito"></div>
+     <div class="pina-colada"></div>
+    </div>
+
+  </div>
+
+
+
+  <script src="main.js"></script>  
+</body>
+</html>

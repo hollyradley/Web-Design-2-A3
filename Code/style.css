@@ -1,0 +1,125 @@
+
+/* ------ CSS THAT WILL EFFECT THE WHOLE WHOLE WEBSITE ------ */
+body {
+    background-color: #FFFBFB;
+    color: #2A2A2A;
+    font-family: 'filson-soft', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 30px;
+}
+
+  
+
+h1 {
+    font-family: "filson-soft", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 70px;
+    line-height: 10px;
+}
+
+h2 {
+    font-family: "Belligan";
+    font-weight: 100;
+    font-size:70px;
+    line-height: 10px;
+
+}
+
+h3 {
+    font-family: "filson-soft", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+h4 {
+    font-family: "Belligan";
+    font-size: 40px;
+    font-weight: 100;
+}
+
+button {
+    font-family: 'filson-soft', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    background-color: #DEE6A8;
+    border: solid 1.5px #2A2A2A;
+    border-radius: 15px;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+}
+
+
+
+
+/* ------ CSS THAT WILL EFFECT THE STRUCTURE OF ALL FRAMES ------ */
+#frame-1 {
+    background-color: #F8EAEC;
+    height: 700px;
+    width: 100%;
+}
+
+
+
+/* ------------ FRAME ONE ------------*/
+#frame-1-text {
+    background-color: #FFFBFB;
+    width: 25%;
+    margin-right: 16.7%; /* that maths equasion that works out the centre point */
+    padding: 2%;
+    text-align: center;
+    float: right;
+}
+
+.frame-1-header-1 {
+    font-size: 100px;
+}
+
+.frame-1-header-2 {
+    font-size: 110px;
+}
+
+
+/* ------------ FRAME TWO ------------*/
+#frame-2 {
+    text-align: center;
+}
+
+#vodka-button, #gin-button, #tequilla-button, #rum-button {
+    background-color: #FFFBFB;
+    color: #2A2A2A;
+    border: 0px;
+    font-size: 40px;
+    font-family: "filson-soft", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    width: fit-content;
+    margin: 5%;
+}
+
+/* ------------ FRAME THREE ------------*/
+#vodka-recipes {
+    background-color: #DEE6A8;
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+
+
+#pornstar-martini, #cotton-candy-cosmo, #sex-on-the-beach {
+    background-color: #F8EAEC;
+    border: 2px solid #2A2A2A;
+    border-radius: 30px;
+    width: 400px;
+    padding: 2%;
+    text-align: center;
+    margin: 1%;
+    font-size: 10px;
+}
+
+  
