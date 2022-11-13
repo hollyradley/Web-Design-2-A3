@@ -1,0 +1,936 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 15px;
+}
+
+/* ------ CSS DEFINING THE STRUCTURE OF ALL FRAMES ------ */
+
+
+#frame-1 {
+    background-color: #F8EAEC;
+    height: 100vh;
+    width: 100%;
+}
+
+#frame-2 {
+    height: 30vh;
+    width: 100%;
+    position: relative;
+}
+
+#frame-3 {
+    background-color: white;
+    height: 40vh;
+    width: 100%;
+}
+
+#frame-4 {
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+}
+
+#frame-5 {
+    background-color: white;
+    height: 40vh;
+    width: 100%;
+}
+
+#frame-6 {
+    background-color: white;
+    height: 40vh;
+    width: 100%;
+}
+
+#frame-7 {
+    background-color: white;
+    height: 40vh;
+    width: 100%;
+}
+
+#frame-8 {
+    background-color: white;
+    height: 40vh;
+    width: 100%;
+}
+
+#frame-9 {
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+}
+
+
+/* ------------------ FRAME ONE ------------------ */
+#sihlouettes {
+    position: relative;
+    background-color: #F8EAEC;
+    float: left;
+    width: 40%;
+    height: 700px;
+}
+
+.cointreau {
+    position: absolute;
+    height: 260px;
+    left: 3%;
+}
+
+.spoon {
+    position: absolute;
+    height: 160px;
+    top: 0;
+    left: 26%;
+}
+
+.shaker {
+    position: absolute;
+    height: 260px;
+    left: 56%;
+    top: 4%;
+}
+
+.short-glass {
+    position: absolute;
+    height: 160px;
+    left: 28%;
+    top: 26%;
+}
+
+.coupe {
+    position: absolute;
+    height: 200px;
+    top: 44%;
+}
+
+.strainer {
+    position: absolute;
+    height: 240px;
+    top: 58%;
+    left: 21%;
+}
+
+.hurricane-glass {
+    position: absolute;
+    height: 300px;
+    top: 45%;
+    left: 45%;
+}
+
+.jigger {
+    position: absolute;
+    height: 110px;
+    top: 83%;
+    left: 3%;
+}
+
+.aperol {
+    position: absolute;
+    height: 310px;
+    top: 77%;
+    left: 40%;
+}
+
+.martini-glass {
+    position: absolute;
+    height: 220px;
+    top: 100%;
+    left: 10%;
+}
+
+#frame-1-content {
+    position: relative;
+    background-color: #F8EAEC;
+    width: 60%;
+    height: 700px;
+    float: right;
+}
+
+.better-bevvies-logo {
+    height: 260px;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+
+.sub-header {
+    position: absolute;
+    font-size: 20px;
+    top: 77%;
+    left: 12%;
+    color: #2A2A2A;
+}
+
+.go-button{
+    position: absolute;
+    top: 90%;
+    left: 32.5%;
+}
+
+.go-button::part(base) {
+    background: #DEE6A8;
+    border: solid #DEE6A8;
+    border-radius: 5px;
+}
+
+.go-button::part(base):hover {
+    background:#DEE6A8;
+    border: solid #2A2A2A;
+    border-radius: 5px;
+  }
+
+.go-button::part(base):active {
+    background: #CEDA81;
+    border-radius: 5px;
+}
+
+.go-button::part(label) {
+    color: #2A2A2A;
+    font-family: "urbane-rounded";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ------------------ FRAME TWO ------------------ */
+
+
+.frame-2-h1 {
+    letter-spacing: 1px;
+    font-size: 70px;
+    text-align: center;
+    line-height: 10px;
+    margin-top: 0px;
+}
+
+.frame-2-h2 {
+    font-weight: 100px;
+    font-size:70px;
+    line-height: 10px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.quick-tip {
+    background-color: #DEE6A8;
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    position: relative;
+    left:75%;
+    margin-top: 100px;
+}
+
+
+.tab {
+    position: absolute;
+    right: 0;
+}
+
+.quick-tip-header{
+    color: #2A2A2A;
+    font-size: 30px;
+    padding-top: 15%;
+    text-align: center;
+}
+
+.quick-tip-text {
+    position: absolute;
+    text-align: center;
+    font-size: 13px;
+    font-style: italic;
+    top: 45%;
+    left: 10%;
+    right: 10%;
+}
+
+.help-icon {
+    background-color: #DEE6A8;
+    border-radius: 30px;
+    width: 45px;
+    height: 45px;
+    position: relative;
+    left:85%;
+    margin-top: 100px;
+    display: none;
+}
+
+.sl-icon::part(base) {
+    color: #2A2A2A;
+    font-size: 100px;
+}
+
+
+#spirit-buttons {
+    text-align: center;
+    letter-spacing: .5px;
+    color: #2A2A2A;
+    border: white;
+    padding: 20px;
+}
+
+.vodka-button::part(base) {
+    background: var(--sl-color-neutral-0);
+    border-radius: 5px;
+}
+
+.vodka-button::part(base):hover {
+    background:#F8EAEC;
+  }
+
+.vodka-button::part(base):active {
+    background: #F0D1D6;
+}
+
+.vodka-button::part(label) {
+    color: #2A2A2A;
+    font-family: "urbane-rounded";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.gin-button::part(base) {
+    background: var(--sl-color-neutral-0);
+    border-radius: 5px;
+}
+
+.gin-button::part(base):hover {
+    background:#F8EAEC;
+  }
+
+.gin-button::part(base):active {
+    background: #F0D1D6;
+}
+
+.gin-button::part(label) {
+    color: #2A2A2A;
+    font-family: "urbane-rounded";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.tequila-button::part(base) {
+    background: var(--sl-color-neutral-0);
+    border-radius: 5px;
+}
+
+.tequila-button::part(base):hover {
+    background:#F8EAEC;
+  }
+
+.tequila-button::part(base):active {
+    background: #F0D1D6;
+}
+
+.tequila-button::part(label) {
+    color: #2A2A2A;
+    font-family: "urbane-rounded";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.rum-button::part(base) {
+    background: var(--sl-color-neutral-0);
+    border-radius: 5px;
+}
+
+.rum-button::part(base):hover {
+    background:#F8EAEC;
+  }
+
+.rum-button::part(base):active {
+    background: #F0D1D6;
+}
+
+.rum-button::part(label) {
+    color: #2A2A2A;
+    font-family: "urbane-rounded";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* ------------------ FRAME THREE -- RECIPE OPTIONS ------------------ */
+
+.wrapper-1, .wrapper-2, .wrapper-3, .wrapper-4 {
+    display: none;
+    gap: 60px;
+    align-items: center;
+}
+
+.container {
+    width: 350px;
+    height: 250px;
+    background-color: #F8EAEC;
+    border-radius: 15px;
+    transition: all 0.3s;
+    float: left;
+    padding: 25px;
+    margin: 20px;
+    margin-top: -20px;
+    position: relative;
+    left: 23.3%;
+}
+
+.cocktail-img{
+    height: 90%;
+    position: absolute;
+    bottom: 7%;
+    right: 5%;
+    transform-origin: bottom;
+    transition: transform 0.3s;
+}
+
+#header-1 {
+    font-size: 35px;
+    position: absolute;
+    left: 10%;
+    top: 2%;
+    transform-origin: bottom;
+    transition: transform 0.3s;
+}
+
+#header-2 {
+    font-size: 40px;
+    position: absolute;
+    left: 5%;
+    top: 7%;
+    padding: 5%;
+    transform-origin: bottom;
+    transition: transform 0.3s;
+}
+
+#sub-heading-1 {
+    font-size: 14px;
+    position: absolute;
+    left: 10%;
+    top: 45%;
+    transform-origin: bottom;
+    transition: transform 0.3s;
+}
+
+#sub-heading-2 {
+    font-size: 14px;
+    position: absolute;
+    left: 10%;
+    top: 55%;
+    transform-origin: bottom;
+    transition: transform 0.3s;
+}
+
+.next-button-1, .next-button-2, .next-button-3, .next-button-4, .next-button-5, .next-button-6, .next-button-7, .next-button-8 {
+    position: absolute;
+    top: 75%;
+    left: 8%;
+}
+
+.next-button-1::part(base), .next-button-2::part(base), .next-button-3::part(base), .next-button-4::part(base), .next-button-5::part(base), .next-button-6::part(base), .next-button-7::part(base), .next-button-8::part(base) {
+    background: #F8EAEC;
+    border: solid #2A2A2A;
+    border-radius: 5px;
+}
+
+.next-button-1::part(base):hover, .next-button-2::part(base):hover, .next-button-3::part(base):hover, .next-button-4::part(base):hover, .next-button-5::part(base):hover, .next-button-6::part(base):hover, .next-button-7::part(base):hover, .next-button-8::part(base):hover {
+    background:#F8EAEC;
+    border: solid #2A2A2A;
+    border-radius: 5px;
+  }
+
+.next-button-1::part(base):active, .next-button-2::part(base):active, .next-button-3::part(base):active, .next-button-4::part(base):active, .next-button-5::part(base):active, .next-button-6::part(base):active, .next-button-7::part(base):active, .next-button-8::part(base):active {
+    background: #F0D1D6;
+    border-radius: 5px;
+}
+
+.next-button-1::part(label), .next-button-2::part(label), .next-button-3::part(label), .next-button-4::part(label), .next-button-5::part(label), .next-button-6::part(label), .next-button-7::part(label), .next-button-8::part(label) {
+    color: #2A2A2A;
+    font-family: "urbane-rounded";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container:hover img{
+    transform: scale(1.4);
+}
+
+.container:hover h1 {
+    transform: scale(1.2);
+}
+
+.container:hover h2{
+    transform: scale(1.2);
+}
+
+.container:hover p{
+    transform: scale(1.2);
+}
+
+.container:hover sl-button{
+    transform: scale(1.1);
+}
+
+
+.container:first-child:hover{
+    background-color: #DEE6A8;
+}
+
+.container:nth-child(2):hover{
+    background-color: #DEE6A8;
+}
+
+
+
+/* ------------------ FRAME FOUR & 5 -- COCKTAIL RECIPES ------------------ */
+#frame-4-h1, #frame-5-h1 {
+    letter-spacing: 1px;
+    font-size: 70px;
+    text-align: center;
+    line-height: 10px;
+    margin-top: 50px;
+    color: #2A2A2A;
+}
+
+#frame-4-h2, #frame-5-h2 {
+    font-weight: 100px;
+    font-size:70px;
+    line-height: 10px;
+    text-align: center;
+    margin-top: 60px;
+    color: #2A2A2A;
+}
+
+.frame-4-body {
+    font-family: "urbane-rounded", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    margin-left: 20%;
+    margin-top: 10px;
+    color: #2A2A2A;
+}
+
+.frame-5-subheader {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: #2A2A2A;
+}
+
+.frame-5-body{
+    font-weight: bold;
+    text-align: center;
+    color: #2A2A2A;
+}
+.makes-one {
+    font-weight: bold;
+    margin-left: 38.5%;
+    margin-top: -8px;
+    color: #C13373;
+}
+
+.two-standards{
+    color: #C13373;
+    margin-left: 39%;
+    margin-top: -10px;
+    font-size: 13px;
+}
+.recipe-1 { /* .recipe-1 has 6 ingredients, so are longer */
+    width: 770px;
+    height: 825px;
+    background-color: #F8EAEC;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    left: 28.5%;
+    display: none;
+}
+
+.recipe-2, .recipe-3, .recipe-4 { /* .recipe-2, 3 & 4 have 4 ingredients, so are shorter */
+    width: 770px;
+    height: 770px;
+    margin-top: 5%;
+    position: relative;
+    background-color: #F8EAEC;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 30px;
+    position: relative;
+    left: 28.5%;
+    display: none;
+}
+
+.recipe-5, .recipe-6, .recipe-7, .recipe-8 { /* .recipe-2, 3 & 4 have 4 ingredients, so are shorter */
+    width: 770px;
+    height: 400px;
+    margin-top: 5%;
+    position: relative;
+    background-color: #F8EAEC;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 30px;
+    position: relative;
+    left: 28.5%;
+    display: none;
+}
+
+.ingredients-1 { /* ".ingredients-1' is for recipes that have 6 ingredients, so are longer */
+    width: 300px;
+    height: 415px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    position: absolute;
+    top: 280px;
+    left: 10%;
+}
+
+.ingredients-2 { /* ".ingredients-2' is for recipes that have 5 ingredients, so are shorter */
+    width: 300px; 
+    height: 365px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    position: absolute;
+    top: 280px;
+    left: 10%;
+}
+
+.materials {
+    width: 240px;
+    height: 237px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    position: absolute;
+    top: 408px;
+    right: 10%;
+}
+
+.cocktail-img-2{
+    height: 330px;
+    position: absolute;
+    top: 50px;
+    right: 80px;
+    transform-origin: bottom;
+    transform: rotate(7deg);
+}
+
+.cocktail-img-2-grapefruit{
+    height: 430px;
+    position: absolute;
+    top: 0;
+    right: 90px;
+    transform-origin: bottom;
+    transform: rotate(7deg);
+}
+
+
+#frame-4-subheader {
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+#ingredients-table {
+    text-align: left;
+    width: 300px;
+}
+
+#materials-table {
+    text-align: left;
+    width: 200px;
+}
+
+.ingred-img {
+    height: 50px;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+ 
+.make-it-button {
+    position: absolute;
+    bottom: 5%;
+    left: 40%;
+}
+
+.make-it-button::part(base) {
+    background: #DEE6A8;
+    border: solid #DEE6A8;
+    border-radius: 5px;
+}
+
+.make-it-button::part(base):hover {
+    background:#DEE6A8;
+    border: solid #CEDA81;
+    border-radius: 5px;
+  }
+
+.make-it-button::part(base):active {
+    background: #CEDA81;
+    border-radius: 5px;
+}
+
+.make-it-button::part(label) {
+    color: #2A2A2A;
+    font-family: "urbane-rounded";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#home-gallary-buttons {
+    position: relative;
+    left: 30%;
+
+}
+.home-button, .gallary-button {
+    width: fit-content;
+    padding: 20px;
+}
+
+.home-button::part(base), .gallary-button::part(base) {
+    background: #DEE6A8;
+    border: solid #DEE6A8;
+    border-radius: 5px;
+}
+
+.home-button::part(base):hover, .gallary-button::part(base):hover {
+    background:#DEE6A8;
+    border: solid #2A2A2A;
+    border-radius: 5px;
+  }
+
+.home-button::part(base):active, .gallary-button::part(base):active {
+    background: #CEDA81;
+    border-radius: 5px;
+}
+
+.home-button::part(label), .gallary-button::part(label) {
+    color: #2A2A2A;
+    font-family: "urbane-rounded";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ------------------ FRAME FIVE -- COCKTAIL RECIPE STEPS ------------------ */
+
+.step-1, .step-3{
+    width: 350px;
+    height: 250px;
+    background-color: #F8EAEC;
+    border-radius: 15px;
+    transition: all 0.3s;
+    float: left;
+    padding: 25px;
+    margin: 20px;
+    margin-top: 80px;
+    position: relative;
+    left: 27%;
+    display: none;
+}
+
+.step-2, .done{
+    width: 350px;
+    height: 250px;
+    background-color: #F8EAEC;
+    border-radius: 15px;
+    transition: all 0.3s;
+    float: right;
+    padding: 25px;
+    margin: 20px;
+    margin-top: 80px;
+    position: relative;
+    right: 27%;
+    display: none;
+}
+
+#sub-heading-1{
+    line-height: 25px;
+}
+
+
+.next-step-1, .next-step-2, .next-step-3, .home-button-1, .gallary-button {
+    position: absolute;
+    top: 75%;
+    left: 8%;
+}
+
+.next-step-1::part(base), .next-step-2::part(base), .next-step-3::part(base), .home-button-1::part(base), .gallary-button::part(base) {
+    background: #F8EAEC;
+    border: solid #2A2A2A;
+    border-radius: 5px;
+}
+
+.next-step-1::part(base):hover, .next-step-2::part(base):hover, .next-step-3::part(base):hover, .home-button-1:part(base):hover, .gallary-button::part(base):hover{
+    background:#DEE6A8;
+    border: solid #2A2A2A;
+    border-radius: 5px;
+  }
+
+.next-step-1::part(base):active, .next-step-2::part(base):active, .next-step-3::part(base):active, .home-button-1::part(base):active, .gallary-button::part(base):active {
+    background: #DEE6A8;
+    border-radius: 5px;
+}
+
+.next-step-1::part(label), .next-step-2::part(label), .next-step-3::part(label), .home-button-1::part(label), .gallary-button::part(label) {
+    color: #2A2A2A;
+    font-family: "urbane-rounded";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* ------------------ FRAME FIVE -- COCKTAIL RECIPE STEPS ------------------ */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .image-slider-container {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-color: #F8EAEC;
+    left: 35%;
+  }
+  
+  /* Hide the images by default */
+  .image-slides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+
+
+.item {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    padding-top: 75px;
+    background: #ccc;
+    text-align: center;
+    color: #FFF;
+    font-size: 3em;
+  }
+
+.thanks {
+    width: 350px;
+    height: 250px;
+    background-color: #F8EAEC;
+    border-radius: 15px;
+    transition: all 0.3s;
+    float: left;
+    padding: 25px;
+    margin: 20px;
+    margin-top: 80px;
+    float: left;
+    display: none;
+}
+.frame-9-header-1{
+    letter-spacing: 1px;
+    font-size: 70px;
+    text-align: center;
+    line-height: 10px;
+    margin-top: 50px;
+    color: #2A2A2A;
+}
+.line-1{
+    position: absolute;
+    top: 700px;
+    left: 14%;
+}
+.line-2{
+    position: absolute;
+    top:200px;
+    left: 36%;
+}
+
+.line-3{
+    position: absolute;
+    top:200.3px;
+    left: 27.2%;
+}
+
+.path-1, .path-2, .path-4 {
+    stroke-dasharray: 70;
+    /*animation: dash 5s linear;
+} /*
+
+
+
+@keyframes dash {
+    to { 
+        stroke-dashoffset: -1000;
+    }
+} */
+

@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/tfv8jbk.css"> <!--"adobe fonts - typekit"-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.83/dist/themes/light.css" /> <!--"shoelace"-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <!--"animate on scroll" (AOS)-->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.83/dist/shoelace.js"></script>
+    <title>Better Bevvies</title>
+
+    <!-- adding font styling to all basic tags -->    
+    <style>
+        
+      body {
+          font-family: "urbane-rounded", sans-serif;
+      }
+      
+      h1 {
+          font-family: "urbane-rounded", sans-serif;
+      }
+
+      h2 {
+          font-family: "belligan", sans-serif;
+      }
+
+      button {
+          font-family: "urbane-rounded", sans-serif;
+      }
+    </style>
+
+</head>
+
+
+<!------------------------   Begininng the BODY   ------------------------>
+<body>
+
+  <!------------------------   FRAME ONE  ------------------------>
+  <div id="frame-1">
+
+    <div id="sihlouettes">
+      <img class="cointreau" data-aos="fade-right" data-aos-duration="1000" src="sihlouettes/red-cointreau.png" alt="Spirit Bottle"/>
+      <img class="spoon" data-aos="fade-right" data-aos-duration="1000" src="sihlouettes/green-spoon.png" alt="Spoon" />
+      <img class="shaker" data-aos="fade-right" data-aos-duration="1100" src="sihlouettes/green-shaker.png" alt="Shaker" />
+      <img class="short-glass" data-aos="fade-right" data-aos-duration="1200" src="sihlouettes/pink-short-glass.png" alt="Short Cocktail Glass" />
+      <img class="coupe" data-aos="fade-right" data-aos-duration="1300" src="sihlouettes/green-coupe.png" alt="Coupe Cocktail Glass" />
+      <img class="strainer" data-aos="fade-right" data-aos-duration="1400" src="sihlouettes/pink-strainer.png" alt="Strainer" />
+      <img class="hurricane-glass" data-aos="fade-right" data-aos-duration="1500" src="sihlouettes/pink-hurricane-glass.png" alt="Hurricane Cocktail Glass" />
+      <img class="jigger" data-aos="fade-right" data-aos-duration="1600" src="sihlouettes/pink-jigger.png" alt="Jigger" />
+      <img class="aperol" data-aos="fade-right" data-aos-duration="1700" src="sihlouettes/green-aperol.png" alt="Spirit Bottle" />
+      <img class="martini-glass" data-aos="fade-right" data-aos-duration="1800" src="sihlouettes/green-martini.png" alt="Martini Cocktail Glass" />
+    </div>
+
+    <div id="frame-1-content">
+
+      <img class="better-bevvies-logo" data-aos="fade-left" data-aos-duration="900" src="Better-Bevvies-Logo.png">
+      <p class="sub-header" data-aos="fade-left" data-aos-duration="1000">The ultimate guide to take your bevvies to the next level!</p>
+      <sl-button class="go-button" data-aos="fade-left" data-aos-duration="1100" href="#frame-2" variant="default" outline>LET'S GO</sl-button>
+      
+    </div>
+    
+  </div>
+
+  <!------------------------   FRAME TWO  ------------------------>
+
+  <!-----------   QUICK TIP ----------->
+  <div class="quick-tip">
+    <sl-tab class="tab" closable></sl-tab>
+    <h2 class="quick-tip-header">Quick Tip</h2>
+    <p class="quick-tip-text">Click twice to view and once to hide!</p>
+  </div>
+
+  <div style="font-size: 30px;" class="help-icon">
+      <sl-icon-button name="question-lg" label="Quick Tip"></sl-icon-button> 
+  </div>
+  <!-----------   QUICK TIP ----------->
+
+
+  <div id="frame-2">
+
+    <!-- Adding text and buttons -->
+
+      <div id="frame-2-text">
+        <h1 class="frame-2-h1">PICK A</h1>
+        <h2 class="frame-2-h2">Spirit</h2>
+      </div>
+    
+
+   <!-- Adding Spirit Buttons -->
+   <div id="spirit-buttons" > <!-- shoelace text buttons that allowing users to select a spirit -->  
+     <!-- each button wrapped with a tool tip to tell them to cick twice -->  
+      <sl-button class="vodka-button" variant="text" size="large">VODKA</sl-button>
+      <sl-button class="gin-button" variant="text" size="large">GIN</sl-button>
+      <sl-button class="tequila-button" variant="text" size="large">TEQUILA</sl-button>
+      <sl-button class="rum-button" variant="text" size="large">RUM</sl-button>
+   </div>
+  
+    
+
+  </div>
+
+
+  
+  <!------------------------   FRAME THREE -- RUM  ------------------------>
+  <div id="frame-3">
+    
+    
+      
+    <!-----------  VODKA  ----------->
+    <div class="wrapper-1">
+  
+      <div class="container">
+        <img class="cocktail-img" src="Images/Pornstar.png" alt="Pornstar Martini" />
+
+          <h1 id="header-1">PORNSTAR</h1>
+          <h2 id="header-2">Martini</h2>
+          <p id="sub-heading-1">Vanilla Vodka, Passionfruit Liqueur,</p>
+          <p id="sub-heading-2"> Licor 43, lime & pineapple juice </p>
+          <sl-button class="next-button-1" href="#frame-2" variant="default" outline>LETS TRY IT</sl-button>
+
+      </div>
+
+
+      <div class="container">
+        <img class="cocktail-img" src="Images/Cosmo.png" alt="Cosmo" />
+          
+          <h1 id="header-1">COTTON CANDY</h1>
+          <h2 id="header-2">Cosmo</h2>
+          <p id="sub-heading-1">Vodka, Cointreau, cotton candy</p>
+          <p id="sub-heading-2"> lime, & Cranberry juice </p>
+          <sl-button class="next-button-2" href="#frame-2" variant="default" outline>LETS TRY IT</sl-button>
+  
+      </div>
+
+    </div>
+
+      
+    <!-----------  GIN  ----------->
+    <div class="wrapper-2">
+      
+      <div class="container">
+        <img class="cocktail-img" src="Images/Elderflower.png" alt="Elderflower Sour" />
+
+          <h1 id="header-1">ELDERFLOWER</h1>
+          <h2 id="header-2">Sour</h2>
+          <p id="sub-heading-1">Gin, Chambord, Elderflower Syrup </p>
+          <p id="sub-heading-2">rose prosecco, strawberry & soda</p>
+          <sl-button class="next-button-3" href="#frame-2" variant="default" outline>LETS TRY IT</sl-button>
+
+      </div>
+
+
+      <div class="container">
+        <img class="cocktail-img" src="Images/Grapefruit.png" alt="Grapefruit Gin Fizz" />
+          
+          <h1 id="header-1">GRAPEFRUIT</h1>
+          <h2 id="header-2">Gin Sprits</h2>
+          <p id="sub-heading-1">Gin, Chambord, Elderflower Syrup</p>
+          <p id="sub-heading-2"> lime, & Cranberry juice </p>
+          <sl-button class="next-button-4" href="#frame-2" variant="default" outline>LETS TRY IT</sl-button>
+  
+      </div>
+
+    </div>
+
+      
+    <!-----------   TEQUILA   ----------->
+    <div class="wrapper-3">
+      
+      <div class="container">
+        <img class="cocktail-img" src="Images/spicyMarg.png" alt="Spicy Margarita" />
+
+          <h1 id="header-1">SPICY</h1>
+          <h2 id="header-2">Margarita</h2>
+          <p id="sub-heading-1">Tequila, Cointreau, lime juice</p>
+          <p id="sub-heading-2">sugar syrup & Tabasco</p>
+          <sl-button class="next-button-5" href="#frame-2" variant="default" outline>LETS TRY IT</sl-button>
+
+      </div>
+
+
+      <div class="container">
+        <img class="cocktail-img" src="Images/mescalPaloma.png" alt="Mescal Paloma" />
+          
+          <h1 id="header-1">TEQUILA</h1>
+          <h2 id="header-2">Sunrise</h2>
+          <p id="sub-heading-1">Vodka, Cointreau, cotton candy</p>
+          <p id="sub-heading-2"> lime, & Cranberry juice </p>
+          <sl-button class="next-button-6" href="#frame-2" variant="default" outline>LETS TRY IT</sl-button>
+  
+      </div>
+
+    </div>
+    <!-----------  RUM  ----------->
+    <div class="wrapper-4">
+
+      <div class="container">
+        <img class="cocktail-img" src="Images/passionMojito.png" alt="Mojito" />
+       
+          <h1 id="header-1">PASSIONFRUIT</h1>
+          <h2 id="header-2">Mojito</h2>
+          <p id="sub-heading-1">White Rum, lime, mint,</p>
+          <p id="sub-heading-2">passionfruit pulp & soda</p>
+          <sl-button class="next-button-7" href="#frame-2" variant="default" outline>LETS TRY IT</sl-button>
+
+      </div>
+
+      <div class="container">
+        <img class="cocktail-img" src="Images/Daiquiri.png" alt="Daiquari" />
+
+          <h1 id="header-1">STRAWBERRY</h1>
+          <h2 id="header-2">Daiquari</h2>
+          <p id="sub-heading-1">White Rum, Cointreau, </p>
+          <p id="sub-heading-2">lime & strawberry syrup </p>
+          <sl-button class="next-button-8" href="#frame-2" variant="default" outline>LETS TRY IT</sl-button>
+        
+      </div>
+      
+    </div>
+ 
+  </div>
+
+
+
+  
+  <!------------------------   FRAME FOUR  ------------------------>
+  <div id="frame-4">
+
+    <!---------- VODKA - Pornstar Martini ---------->
+    <div class="recipe-1">
+      <h1 id="frame-4-h1">PORNSTAR</h1>
+      <h2 id="frame-4-h2">Martini</h2>
+      <p class="makes-one">MAKES ONE COCKTAIL</p>
+      <p class="two-standards">(TWO STANDARD DRINKS)</p>
+      <img class="cocktail-img-2" src="Images/Pornstar.png" alt="Pornstar" />
+      <!-- INGREDIENTS -->
+        <div class="ingredients-1">
+          <h1 id="frame-4-subheader">INGREDIENTS</h1>
+        <table id="ingredients-table">
+        <!-- Vodka -->
+          <tr>
+            <td>
+              <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+            </td>
+            <td>
+              30ml
+              <th>Vanilla Vodka</th>
+            </td>
+          </tr>
+        <!-- Passoa -->
+          <tr>
+            <td>
+              <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+            </td>
+            <td>
+              15ml
+              <th>Passoa</th>
+            </td>
+          </tr>
+          <!-- Licor 43 -->
+          <tr>
+            <td>
+              <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+            </td>
+            <td>
+              15ml
+              <th>Licor 45</th>
+            </td>
+          </tr>
+          <!-- Lime -->
+          <tr>
+            <td>
+              <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+            </td>
+            <td>
+              30ml
+              <th>Lime Juice</th>
+            </td>
+          </tr>
+          <!-- Passionfruit Puree -->
+          <tr>
+            <td>
+              <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+            </td>
+            <td>
+              45ml
+              <th>Passionfruit Puree</th>
+            </td>
+          </tr>
+          <!-- Pineapple Juice -->
+          <tr>
+            <td>
+              <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+            </td>
+            <td>
+              60ml
+              <th>Pineapple Juice</th>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <!-- MATERIALS -->
+      <div class="materials">
+        <h1 id="frame-4-subheader">MATERIALS</h1>
+        <table id="materials-table">
+          <!-- Ice -->
+            <tr>
+              <td>
+                <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+              </td>
+              <th>Ice Cubes</th>
+            </tr>
+          <!-- Cocktail Kit -->
+          <tr>
+            <td>
+              <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+            </td>
+            <th>Cocktail Kit</th>
+          </tr>
+          <!-- Glasswear -->
+          <tr>
+            <td>
+              <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+            </td>
+            <th>Coupe Glass</th>
+          </tr>
+          </table>
+        </div>
+      
+        <sl-button class="make-it-button" variant="default" outline>LET'S MAKE IT</sl-button>
+    </div>
+
+    <!---------- VODKA - Cotton Candy Cosmo ---------->
+    <div class="recipe-2">
+      <h1 id="frame-4-h1">COTTON CANDY</h1>
+      <h2 id="frame-4-h2">Cosmo</h2>
+      <p class="makes-one">MAKES ONE COCKTAIL</p>
+      <p class="two-standards">(TWO STANDARD DRINKS)</p>
+      <img class="cocktail-img-2" src="Images/Cosmo.png" alt="Cosmo" />
+      <!-- INGREDIENTS -->
+        <div class="ingredients-2">
+          <h1 id="frame-4-subheader">INGREDIENTS</h1>
+        <table id="ingredients-table">
+        <!-- Vodka -->
+          <tr>
+            <td>
+              <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+            </td>
+            <td>
+              45ml
+              <th>Vodka</th>
+            </td>
+          </tr>
+        <!-- Cointreau -->
+          <tr>
+            <td>
+              <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+            </td>
+            <td>
+              15ml
+              <th>Cointreau</th>
+            </td>
+          </tr>
+          <!-- Lime -->
+          <tr>
+            <td>
+              <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+            </td>
+            <td>
+              15ml
+              <th>Lime Juice</th>
+            </td>
+          </tr>
+          <!-- Cranberry Juice -->
+          <tr>
+            <td>
+              <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+            </td>
+            <td>
+              60ml
+              <th>Cranberry Juice</th>
+            </td>
+          </tr>
+          <!-- Cotton Candy -->
+          <tr>
+            <td>
+              <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+            </td>
+            <td>
+              Pink
+              <th>Cotton Candy</th>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <!-- MATERIALS -->
+      <div class="materials">
+        <h1 id="frame-4-subheader">MATERIALS</h1>
+        <table id="materials-table">
+          <!-- Ice -->
+            <tr>
+              <td>
+                <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+              </td>
+              <th>Ice Cubes</th>
+            </tr>
+          <!-- Cocktail Kit -->
+          <tr>
+            <td>
+              <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+            </td>
+            <th>Cocktail Kit</th>
+          </tr>
+          <!-- Glasswear -->
+          <tr>
+            <td>
+              <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+            </td>
+            <th>Martini Glass</th>
+          </tr>
+          </table>
+        </div>
+        <sl-button class="make-it-button" href="#frame-5" variant="default" outline>LET'S MAKE IT</sl-button>
+    </div>
+
+      <!---------- GIN - Elderflower Sour ---------->
+      <div class="recipe-3">
+        <h1 id="frame-4-h1">ELDERFLOWER</h1>
+        <h2 id="frame-4-h2">Sour</h2>
+          <p class="makes-one">MAKES ONE COCKTAIL</p>
+          <p class="two-standards">(TWO STANDARD DRINKS)</p>
+        <img class="cocktail-img-2" src="Images/Elderflower.png" alt="Elderflower Sour" />
+        <!-- INGREDIENTS -->
+          <div class="ingredients-2">
+            <h1 id="frame-4-subheader">INGREDIENTS</h1>
+          <table id="ingredients-table">
+          <!-- Gin -->
+            <tr>
+              <td>
+                <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+              </td>
+              <td>
+                45ml
+                <th>Gin</th>
+              </td>
+            </tr>
+          <!-- Elderflower Liqueur -->
+            <tr>
+              <td>
+                <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+              </td>
+              <td>
+                15ml
+                <th>Elderflower Liqueur</th>
+              </td>
+            </tr>
+            <!-- Lemon -->
+            <tr>
+              <td>
+                <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+              </td>
+              <td>
+                20ml
+                <th>Lemon Juice</th>
+              </td>
+            </tr>
+            <!-- Lime -->
+            <tr>
+              <td>
+                <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+              </td>
+              <td>
+                10ml
+                <th>Sugar Syrup</th>
+              </td>
+            </tr>
+            <!-- Egg White -->
+            <tr>
+              <td>
+                <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+              </td>
+              <td>
+                1 (15-20ml)
+                <th>Egg White</th>
+              </td>
+            </tr>
+          </table>
+        </div>
+            
+        <!-- MATERIALS -->
+        <div class="materials">
+          <h1 id="frame-4-subheader">MATERIALS</h1>
+          <table id="materials-table">
+            <!-- Ice -->
+              <tr>
+                <td>
+                  <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+                </td>
+                <th>Ice Cubes</th>
+              </tr>
+            <!-- Cocktail Kit -->
+            <tr>
+              <td>
+                <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+              </td>
+              <th>Cocktail Kit</th>
+            </tr>
+            <!-- Glasswear -->
+            <tr>
+              <td>
+                <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+              </td>
+              <th>Coupe Glass</th>
+            </tr>
+            </table>
+          </div>
+          <sl-button class="make-it-button" href="#frame-5" variant="default" outline>LET'S MAKE IT</sl-button>
+      </div>
+
+      <!---------- GIN - Grapefruit Gin Fizz ---------->
+      <div class="recipe-4">
+        <h1 id="frame-4-h1">GRAPEFRUIT</h1>
+        <h2 id="frame-4-h2">Gin Fizz</h2>
+          <p class="makes-one">MAKES ONE COCKTAIL</p>
+          <p class="two-standards">(TWO STANDARD DRINKS)</p>
+        <img class="cocktail-img-2-grapefruit" src="Images/Grapefruit.png" alt="Grapefruit Gin Fizz" />
+
+        <!-- INGREDIENTS -->
+          <div class="ingredients-2">
+            <h1 id="frame-4-subheader">INGREDIENTS</h1>
+          <table id="ingredients-table">
+          <!-- Gin -->
+            <tr>
+              <td>
+                <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+              </td>
+              <td>
+                60ml
+                <th>Gin</th>
+              </td>
+            </tr>
+          <!-- Grapefruit Juice -->
+            <tr>
+              <td>
+                <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+              </td>
+              <td>
+                60ml
+                <th>Grapefruit Juice</th>
+              </td>
+            </tr>
+            <!-- Tonic Water -->
+            <tr>
+              <td>
+                <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+              </td>
+              <td>
+                30ml
+                <th>Tonic Water</th>
+              </td>
+            </tr>
+            <!-- Rosmary -->
+            <tr>
+              <td>
+                <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+              </td>
+              <td>
+                2 Sprigs
+                <th>Rosmary</th>
+              </td>
+            </tr>
+            <!-- Fresh Grapefuit -->
+            <tr>
+              <td>
+                <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+              </td>
+              <td>
+                2 Slices
+                <th>Fresh Grapefuit*</th>
+              </td>
+            </tr>
+          </table>
+      </div>
+            
+        <!-- MATERIALS -->
+        <div class="materials">
+          <h1 id="frame-4-subheader">MATERIALS</h1>
+          <table id="materials-table">
+            <!-- Ice -->
+              <tr>
+                <td>
+                  <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+                </td>
+                <th>Ice Cubes</th>
+              </tr>
+            <!-- Cocktail Kit -->
+            <tr>
+              <td>
+                <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+              </td>
+              <th>Cocktail Kit</th>
+            </tr>
+            <!-- Glasswear -->
+            <tr>
+              <td>
+                <img class="ingred-img" src="images/GREEN-BOX.png" alt="ingred"/>
+              </td>
+              <th>Tall Glass</th>
+            </tr>
+          </table>
+        </div>
+        <sl-button class="make-it-button" href="#frame-5" variant="default" outline>LET'S MAKE IT</sl-button>
+  </div>
+
+
+  <!---------- SORRY - This Page is Currently Under Construction ---------->
+  <div class="recipe-5">
+    <h1 id="frame-5-h1">OH NO</h1>
+    <p class="frame-5-subheader">THIS PAGE IS</p>
+    <h2 id="frame-5-h2">Under Construction</h2>
+      <p class="frame-5-body">PLEASE RETURN TO OUR HOME PAGE OR VIEW OUR GALLERY FO FURTHER INSPIRATION</p>
+      <div id="home-gallary-buttons">
+        <sl-button class="home-button" href="#frame-1" variant="default" outline>HOME</sl-button>
+        <sl-button class="gallary-button" href="#frame-6" variant="default" outline>GALLARY</sl-button>
+      </div>
+  </div>
+
+  <div class="recipe-6">
+    <h1 id="frame-5-h1">OH NO</h1>
+    <p class="frame-5-subheader">THIS PAGE IS</p>
+    <h2 id="frame-5-h2">Under Construction</h2>
+      <p class="frame-5-body">PLEASE RETURN TO OUR HOME PAGE OR VIEW OUR GALLERY FO FURTHER INSPIRATION</p>
+      <div id="home-gallary-buttons">
+        <sl-button class="home-button" href="#frame-1" variant="default" outline>HOME</sl-button>
+        <sl-button class="gallary-button" href="#frame-6" variant="default" outline>GALLARY</sl-button>
+      </div>
+  </div>
+
+  <div class="recipe-7">
+    <h1 id="frame-5-h1">OH NO</h1>
+    <p class="frame-5-subheader">THIS PAGE IS</p>
+    <h2 id="frame-5-h2">Under Construction</h2>
+      <p class="frame-5-body">PLEASE RETURN TO OUR HOME PAGE OR VIEW OUR GALLERY FO FURTHER INSPIRATION</p>
+      <div id="home-gallary-buttons">
+        <sl-button class="home-button" href="#frame-1" variant="default" outline>HOME</sl-button>
+        <sl-button class="gallary-button" href="#frame-6" variant="default" outline>GALLARY</sl-button>
+      </div>
+  </div>
+
+  <div class="recipe-8":>
+    <h1 id="frame-5-h1">OH NO</h1>
+    <p class="frame-5-subheader">THIS PAGE IS</p>
+    <h2 id="frame-5-h2">Under Construction</h2>
+      <p class="frame-5-body">PLEASE RETURN TO OUR HOME PAGE OR VIEW OUR GALLERY FO FURTHER INSPIRATION</p>
+      <div id="home-gallary-buttons">
+        <sl-button class="home-button" href="#frame-1" variant="default" outline>HOME</sl-button>
+        <sl-button class="gallary-button" href="#frame-6" variant="default" outline>GALLARY</sl-button>
+      </div>
+  </div>
+
+ <!------------------------   FRAME FIVE  ------------------------>
+ <div id="frame-5">
+    <div class="step-1">
+        <h1 id="header-1">STEP</h1>
+        <h2 id="header-2">One</h2>
+        <p id="sub-heading-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. </p>
+        <sl-button class="next-step-1" variant="default" outline>NEXT STEP</sl-button>
+    </div>
+  </div>
+
+
+  <div id="frame-6">
+    <div class="step-2">
+      <h1 id="header-1">STEP</h1>
+      <h2 id="header-2">Two</h2>
+      <p id="sub-heading-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. </p>
+      <sl-button class="next-step-2" variant="default" outline>NEXT STEP</sl-button>
+    </div>
+  </div>
+
+  <div id="frame-7">
+    <div class="step-3">
+      <h1 id="header-1">STEP</h1>
+      <h2 id="header-2">Three</h2>
+      <p id="sub-heading-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. </p>
+      <sl-button class="next-step-3" variant="default" outline>NEXT STEP</sl-button>
+    </div>
+  </div>
+
+  <div id="frame-8">
+    <div class="done">
+      <h1 id="header-1">DONE</h1>
+      <h2 id="header-2">Enjoy</h2>
+      <p id="sub-heading-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. </p>
+      <sl-button class="home-button-1" href="#frame-1" variant="default" outline>HOME</sl-button>
+    
+    </div>
+  </div>
+
+
+
+  <!------------------------   FRAME SIX  ------------------------>
+  <div id="frame-9">
+
+    <div class="thanks">
+      <h1 id="frame-9-header-1">THANKYOU</h1>
+      <h2 id="frame-9-header-2">For Using</h2>
+      <img class="better-bevvies-logo" height="260px" src="Better-Bevvies-Logo.png">
+      <p id="sub-heading-1">Check out our image gallery to see what others are creating! </p>
+  
+    </div>
+
+
+
+  <!-- Container for the image gallery -->
+  <div class="image-slider-container">
+
+    <!-- Full-width images with number text -->
+    <div class="image-slides">
+      <div class="numbertext">1 / 6</div>
+        <img src="images/image-slider-1.jpg" style="width:100%">
+    </div>
+
+    <div class="image-slides">
+      <div class="numbertext">2 / 6</div>
+        <img src="images/image-slider-2.jpg" style="width:100%">
+    </div>
+
+    <div class="image-slides">
+      <div class="numbertext">3 / 6</div>
+        <img src="images/image-slider-3.jpg" style="width:100%">
+    </div>
+
+    <div class="image-slides">
+      <div class="numbertext">4 / 6</div>
+        <img src="images/image-slider-4.jpg"style="width:100%">
+    </div>
+
+    <div class="image-slides">
+      <div class="numbertext">5 / 6</div>
+        <img src="images/image-slider-5.jpg" style="width:100%">
+    </div>
+
+    <div class="image-slides">
+      <div class="numbertext">6 / 6</div>
+        <img src="images/image-slider-6.jpg" style="width:100%">
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="images/square-image-1.png" style="width:100%" onclick="currentSlide(1)" alt="@hayly____t">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/square-image-2.png" style="width:100%" onclick="currentSlide(2)" alt="@gia-smith">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/square-image-3.png" style="width:100%" onclick="currentSlide(3)" alt="@bridie_thomas2">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/square-image-4.png" style="width:100%" onclick="currentSlide(4)" alt="@em__bassit">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/square-image-5.png" style="width:100%" onclick="currentSlide(5)" alt="catv_7">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/square-image-6.png" style="width:100%" onclick="currentSlide(6)" alt="@ninaaa">
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!------------------------   ADDING SCRIPTS  ------------------------>
+
+  <!--adding GSAP script-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+  
+  <!--adding JavaScript-->
+  <script src="main.js"></script>  
+
+  <!--adding AOS script-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>  
+  <script>
+    AOS.init();
+  </script>
+  
+</body>
+
+</html>
